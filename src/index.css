@@ -1,0 +1,88 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: sans-serif;
+    /*background-color:azure;*/
+}
+
+*,
+*:after,
+*::before{
+   box-sizing: inherit; 
+}
+
+input[type="text"]{
+    border: thin solid blue;
+    border-radius: 0.25rem;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    outline: none;
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1;
+    background-color: white;
+    size: 40px;
+}
+
+button,
+input[type="submit"],
+input[type="reset"]{
+    border: thin solid #444;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem 1rem;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1;
+    text-transform: none;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+form{
+    margin-bottom: 1rem;
+}
+table{
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+th,
+td{
+    text-align: left;
+    padding: 0.5rem;
+    border-bottom: thin solid #dedede;
+    font-family: sans-serif;
+}
+h1{
+    color:firebrick ;
+}
+div{
+    color: black;
+    font-family: sans-serif;
+}
+li,
+ul,
+link{
+    font-family: sans-serif; 
+}
+body{
+    background: url(../public/fondo.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.card{
+    background-color: #d1d3d6;
+    box-shadow: 0px 0px 3px #848484;
+    opacity: .90;
+    max-width: 800px;
+    text-align:center;
+    margin: 0 auto;
+}
